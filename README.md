@@ -3,15 +3,15 @@
 # Author: Akash Kumar (Sky)
 
 
-"""
+
 ![MasterHead](https://www.easyspace.com/blog/wp-content/uploads/2019/03/spam-1.png)
-"""
+
 
 
 # 🧩 PROBLEM STATEMENT
 
 
-"""
+
 Email communication is one of the most widely used modes of digital interaction today. 
 However, a significant portion of email traffic consists of spam messages — unsolicited, 
 unwanted, and often malicious emails that can lead to data theft, phishing attacks, or wasted resources.
@@ -25,7 +25,7 @@ improve user experience, and automate spam filtering using data-driven technique
 # 🎯 PROJECT OBJECTIVES
 
 
-"""
+
 1. Data Preprocessing:
    - Cleaning and preparing the dataset by removing unwanted characters and missing values.
 
@@ -55,7 +55,7 @@ improve user experience, and automate spam filtering using data-driven technique
 
 9. Challenges & Future Enhancements:
    - Dealing with evolving spam techniques and proposing improvements using advanced NLP models.
-"""
+
 
 
 # 📊 PROJECT SUMMARY
@@ -120,9 +120,9 @@ when used right, can make our digital space safer.
 
 "In a world full of noise, let data science be the filter that keeps our inbox clean."
 
-— Akash Kumar (Sky)
-"""
+— Akash Kumar 
 
-# ==========================================================
-# END OF DOCUMENT
-# ==========================================================
+
+
+ END OF DOCUMENT
+
