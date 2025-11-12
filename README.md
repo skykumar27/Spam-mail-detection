@@ -57,7 +57,6 @@ To make the system **smarter, futuristic, and real-world ready**, the following 
 | **2** | **Spam Risk Analyzer** | Detects the potential risk level of spam (Low / Medium / High) based on phishing keywords and patterns. | Cybersecurity + Threat Awareness 🔐 |
 | **3** | **Email Categorizer** | Classifies emails beyond spam — Promotions, Social, Updates, or Personal — like Gmail’s Smart Inbox. | Intelligent Inbox Sorting 🧠 |
 | **4** | **Self-Learning Model** | Enables adaptive retraining — learns from user corrections to evolve and improve over time. | Adaptive / Evolving AI 🔁 |
-| **5** | **Gradio Dashboard** | Interactive live web app for spam detection, reply generation, and real-time feedback. | Real-World Usability 🌐 |
 
 These enhancements bring **AI-powered interactivity and learning** to traditional spam detection, bridging the gap between simple classification and intelligent automation.
 
@@ -93,9 +92,9 @@ To tackle this, I built an intelligent **Email Spam Detection System** using Pyt
 
 ---
 
-## 🧩 ADVANCED MODULES WORKFLOW
+## 🧩 ADVANCED MODULES WORKFLOW  
 
-### 🧠 AI Auto-Reply
+### 🧠 AI Auto-Reply  
 - Detects if the incoming email is **not spam**.  
 - Automatically generates a polite, professional, context-aware response using a pre-trained language model.  
 - **Example:**  
@@ -104,31 +103,24 @@ To tackle this, I built an intelligent **Email Spam Detection System** using Pyt
 
 ---
 
-### 🛡️ Spam Risk Analyzer
+### 🛡️ Spam Risk Analyzer  
 - Scores spam messages by **phishing risk level** (Low / Medium / High).  
 - Flags dangerous patterns like “password”, “bank”, “OTP”, “click here”, etc.  
 - Helps users prioritize or block risky emails.  
 
 ---
 
-### 📂 Smart Email Categorizer
+### 📂 Smart Email Categorizer  
 - Extends detection beyond spam to identify **Promotions, Social, Updates, and Personal**.  
 - Uses TF-IDF + keyword seeding for realistic categorization.  
 - Works like Gmail’s Smart Inbox system.  
 
 ---
 
-### 🔁 Self-Learning Filter
+### 🔁 Self-Learning Filter  
 - Model **updates itself** with every user correction (`Spam` / `Not Spam`).  
 - Automatically retrains with new examples.  
 - Continuously improves accuracy over time — a truly *evolving spam filter*.  
-
----
-
-### 🌐 Gradio Interactive Dashboard
-- A **real-time demo interface** for testing the model visually.  
-- Paste any email, analyze spam level, check AI-generated replies, and retrain interactively.  
-- Can be deployed on web or integrated into mail systems easily.  
 
 ---
 
@@ -136,13 +128,13 @@ To tackle this, I built an intelligent **Email Spam Detection System** using Pyt
 
 The **Email Spam Detection Project** demonstrates how machine learning and natural language processing can transform simple classification into a **smart, interactive, and evolving email defense system**.
 
-### 🔹 Key Insights:
+### 🔹 Key Insights:  
 - Dataset Distribution: 13.4% Spam, 86.6% Ham  
 - Common Spam Keywords: *free, win, call, txt, now*  
 - Model Accuracy: **98.38% (Multinomial Naive Bayes)**  
-- Enhanced with five AI-driven features for real-world scalability  
+- Enhanced with four AI-driven features for real-world scalability  
 
-### 🔹 Future Work:
+### 🔹 Future Work:  
 - Integrate **Deep Learning (LSTM, BERT)** for context-based understanding.  
 - Enable **auto-learning pipelines** with online updates.  
 - Add **voice / chat integration** for spoken spam detection (AI agents).  
@@ -156,19 +148,18 @@ The **Email Spam Detection Project** demonstrates how machine learning and natur
 
 ---
 
-## 🛠️ TECH STACK
+## 🛠️ TECH STACK  
 
 - **Languages:** Python  
-- **Libraries:** scikit-learn, pandas, matplotlib, seaborn, transformers, gradio  
+- **Libraries:** scikit-learn, pandas, matplotlib, seaborn, transformers  
 - **Algorithms:** Multinomial Naive Bayes, Logistic Regression, TF-IDF  
-- **Deployment Tools:** Gradio, Hugging Face (for NLP)  
+- **Deployment Tools:** Streamlit / Flask  
 
 ---
 
-## 🚀 RESULTS & IMPACT
+## 🚀 RESULTS & IMPACT  
 ✅ 98.3% spam detection accuracy  
 ✅ AI-assisted smart replies  
-✅ Live demo dashboard (Gradio)  
 ✅ Adaptive, self-improving learning system  
 ✅ Future-ready cybersecurity assistant  
 
