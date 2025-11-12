@@ -1,15 +1,15 @@
-# ==========================================================
+
 # 📧 EMAIL SPAM DETECTION USING MACHINE LEARNING
 # Author: Akash Kumar (Sky)
-# ==========================================================
+
 
 """
 ![MasterHead](https://www.easyspace.com/blog/wp-content/uploads/2019/03/spam-1.png)
 """
 
-# ==========================================================
+
 # 🧩 PROBLEM STATEMENT
-# ==========================================================
+
 
 """
 Email communication is one of the most widely used modes of digital interaction today. 
@@ -21,9 +21,9 @@ distinguishing between legitimate (ham) and spam messages. The goal is to enhanc
 improve user experience, and automate spam filtering using data-driven techniques.
 """
 
-# ==========================================================
+
 # 🎯 PROJECT OBJECTIVES
-# ==========================================================
+
 
 """
 1. Data Preprocessing:
@@ -57,9 +57,9 @@ improve user experience, and automate spam filtering using data-driven technique
    - Dealing with evolving spam techniques and proposing improvements using advanced NLP models.
 """
 
-# ==========================================================
+
 # 📊 PROJECT SUMMARY
-# ==========================================================
+
 
 """
 Spam emails are one of the most common cyber nuisances in digital communication. 
@@ -89,9 +89,7 @@ Key Steps:
    - The model can be integrated into web or email systems for real-time spam filtering.
 """
 
-# ==========================================================
 # 🧠 CONCLUSION
-# ==========================================================
 
 """
 The Email Spam Detection project demonstrates the effectiveness of Machine Learning 
