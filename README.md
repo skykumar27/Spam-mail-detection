@@ -8,7 +8,7 @@
 
 
 
- 🧩 PROBLEM STATEMENT
+# 🧩 PROBLEM STATEMENT
 
 
 
@@ -22,7 +22,7 @@ improve user experience, and automate spam filtering using data-driven technique
 """
 
 
- 🎯 PROJECT OBJECTIVES
+# 🎯 PROJECT OBJECTIVES
 
 
 
@@ -58,7 +58,7 @@ improve user experience, and automate spam filtering using data-driven technique
 
 
 
-📊 PROJECT SUMMARY
+#📊 PROJECT SUMMARY
 
 
 
@@ -89,7 +89,7 @@ Key Steps:
    - The model can be integrated into web or email systems for real-time spam filtering.
 
 
- 🧠 CONCLUSION
+# 🧠 CONCLUSION
 
 
 The Email Spam Detection project demonstrates the effectiveness of Machine Learning 
