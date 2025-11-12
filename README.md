@@ -1,6 +1,6 @@
 
 # 📧 EMAIL SPAM DETECTION USING MACHINE LEARNING
-# Author: Akash Kumar (Sky)
+# Author: Akash Kumar 
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-# 🧩 PROBLEM STATEMENT
+ 🧩 PROBLEM STATEMENT
 
 
 
@@ -22,7 +22,7 @@ improve user experience, and automate spam filtering using data-driven technique
 """
 
 
-# 🎯 PROJECT OBJECTIVES
+ 🎯 PROJECT OBJECTIVES
 
 
 
@@ -58,10 +58,10 @@ improve user experience, and automate spam filtering using data-driven technique
 
 
 
-# 📊 PROJECT SUMMARY
+📊 PROJECT SUMMARY
 
 
-"""
+
 Spam emails are one of the most common cyber nuisances in digital communication. 
 To tackle this, I built an intelligent Email Spam Detection System using Python and Machine Learning.
 
@@ -87,11 +87,11 @@ Key Steps:
 
 7. Deployment Readiness:
    - The model can be integrated into web or email systems for real-time spam filtering.
-"""
 
-# 🧠 CONCLUSION
 
-"""
+ 🧠 CONCLUSION
+
+
 The Email Spam Detection project demonstrates the effectiveness of Machine Learning 
 in combating spam communication. By applying text preprocessing, feature engineering, 
 and smart model selection, the system achieved high accuracy and reliability.
@@ -124,5 +124,5 @@ when used right, can make our digital space safer.
 
 
 
- END OF DOCUMENT
+ 
 
