@@ -57,6 +57,7 @@ To make the system **smarter, futuristic, and real-world ready**, the following 
 | **2** | **Spam Risk Analyzer** | Detects the potential risk level of spam (Low / Medium / High) based on phishing keywords and patterns. | Cybersecurity + Threat Awareness 🔐 |
 | **3** | **Email Categorizer** | Classifies emails beyond spam — Promotions, Social, Updates, or Personal — like Gmail’s Smart Inbox. | Intelligent Inbox Sorting 🧠 |
 | **4** | **Self-Learning Model** | Enables adaptive retraining — learns from user corrections to evolve and improve over time. | Adaptive / Evolving AI 🔁 |
+| **5** | **Auto Bin System (Enhanced with Visible Output)** | Automatically moves detected spam into a simulated “Spam Bin” folder with visible output logs. Users can view filtered messages instantly. | Smart Automation + User Transparency 📬 |
 
 These enhancements bring **AI-powered interactivity and learning** to traditional spam detection, bridging the gap between simple classification and intelligent automation.
 
@@ -124,6 +125,14 @@ To tackle this, I built an intelligent **Email Spam Detection System** using Pyt
 
 ---
 
+### 🗑️ Auto Bin System (Enhanced with Visible Output)  
+- **Automatically relocates** spam emails into a simulated “Spam Bin” folder.  
+- Displays visible output logs showing which messages were moved.  
+- Helps users monitor model actions transparently.  
+- Adds a **visual spam segregation layer** for better understanding.  
+
+---
+
 ## 🧠 CONCLUSION  
 
 The **Email Spam Detection Project** demonstrates how machine learning and natural language processing can transform simple classification into a **smart, interactive, and evolving email defense system**.
@@ -132,7 +141,7 @@ The **Email Spam Detection Project** demonstrates how machine learning and natur
 - Dataset Distribution: 13.4% Spam, 86.6% Ham  
 - Common Spam Keywords: *free, win, call, txt, now*  
 - Model Accuracy: **98.38% (Multinomial Naive Bayes)**  
-- Enhanced with four AI-driven features for real-world scalability  
+- Enhanced with **five AI-driven features** for real-world scalability  
 
 ### 🔹 Future Work:  
 - Integrate **Deep Learning (LSTM, BERT)** for context-based understanding.  
@@ -160,6 +169,8 @@ The **Email Spam Detection Project** demonstrates how machine learning and natur
 ## 🚀 RESULTS & IMPACT  
 ✅ 98.3% spam detection accuracy  
 ✅ AI-assisted smart replies  
+✅ Spam risk scoring and analysis  
+✅ Visible Auto Bin segregation  
 ✅ Adaptive, self-improving learning system  
 ✅ Future-ready cybersecurity assistant  
 
