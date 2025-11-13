@@ -53,11 +53,12 @@ To make the system **smarter, futuristic, and real-world ready**, the following 
 
 | Feature No | Name | Functionality | Futuristic Angle |
 |-------------|------|----------------|------------------|
-| **1** | **AI Auto-Reply** | Generates professional, context-aware replies for non-spam messages using NLP models (GPT-based). | AI Communication Assistant 🤖 |
+| **1** | **AI Auto-Reply** | Generates professional, context-aware replies for non-spam messages using NLP models (GPT/FLAN-based). | AI Communication Assistant 🤖 |
 | **2** | **Spam Risk Analyzer** | Detects the potential risk level of spam (Low / Medium / High) based on phishing keywords and patterns. | Cybersecurity + Threat Awareness 🔐 |
 | **3** | **Email Categorizer** | Classifies emails beyond spam — Promotions, Social, Updates, or Personal — like Gmail’s Smart Inbox. | Intelligent Inbox Sorting 🧠 |
 | **4** | **Self-Learning Model** | Enables adaptive retraining — learns from user corrections to evolve and improve over time. | Adaptive / Evolving AI 🔁 |
 | **5** | **Auto Bin System (Enhanced with Visible Output)** | Automatically moves detected spam into a simulated “Spam Bin” folder with visible output logs. Users can view filtered messages instantly. | Smart Automation + User Transparency 📬 |
+| **6** | **Interactive Gradio Dashboard** | A live, web-based dashboard that unifies all features — Spam Detection, Auto Bin, Risk Analysis, AI Reply, and Self-Learning — in a single user-friendly interface. | Real-time AI Integration 🌐 |
 
 These enhancements bring **AI-powered interactivity and learning** to traditional spam detection, bridging the gap between simple classification and intelligent automation.
 
@@ -133,6 +134,27 @@ To tackle this, I built an intelligent **Email Spam Detection System** using Pyt
 
 ---
 
+### 🧮 Interactive Gradio Dashboard  
+- Provides a **real-time web interface** to interact with all modules in one place.  
+- Built using **Gradio Blocks**, offering input fields, sliders, live outputs, and feedback collection.  
+- Users can:
+  - Paste or type any email message  
+  - Instantly view **Spam/Not Spam** result, **Spam Probability**, and **Risk Level**  
+  - See whether the email is **moved to Bin** or marked **Clean**  
+  - Generate an **AI-powered Auto-Reply** for clean messages  
+  - Provide **feedback** to help the model learn and adapt automatically  
+
+#### 💻 Example Dashboard Actions:
+1. Paste: *“Congratulations! You’ve won a lottery, click the link to claim your prize.”*  
+   → Shows 🚨 **SPAM**, 🔴 **High Risk**, and moves it to the Bin.  
+
+2. Paste: *“Hey Sky, please send me the project report.”*  
+   → Shows ✅ **Not Spam**, generates a professional reply, and saves it under Replies.  
+
+The dashboard runs seamlessly in **Google Colab**, **Jupyter Notebook**, or can be **deployed as a web app** for real-time use.
+
+---
+
 ## 🧠 CONCLUSION  
 
 The **Email Spam Detection Project** demonstrates how machine learning and natural language processing can transform simple classification into a **smart, interactive, and evolving email defense system**.
@@ -141,7 +163,8 @@ The **Email Spam Detection Project** demonstrates how machine learning and natur
 - Dataset Distribution: 13.4% Spam, 86.6% Ham  
 - Common Spam Keywords: *free, win, call, txt, now*  
 - Model Accuracy: **98.38% (Multinomial Naive Bayes)**  
-- Enhanced with **five AI-driven features** for real-world scalability  
+- Enhanced with **six AI-driven features** for real-world scalability  
+- Integrated an **Interactive AI Dashboard** using Gradio for real-time testing and visualization of all features.  
 
 ### 🔹 Future Work:  
 - Integrate **Deep Learning (LSTM, BERT)** for context-based understanding.  
@@ -160,9 +183,9 @@ The **Email Spam Detection Project** demonstrates how machine learning and natur
 ## 🛠️ TECH STACK  
 
 - **Languages:** Python  
-- **Libraries:** scikit-learn, pandas, matplotlib, seaborn, transformers  
+- **Libraries:** scikit-learn, pandas, matplotlib, seaborn, transformers, gradio  
 - **Algorithms:** Multinomial Naive Bayes, Logistic Regression, TF-IDF  
-- **Deployment Tools:** Streamlit / Flask  
+- **Deployment Tools:** Gradio, Streamlit, Flask  
 
 ---
 
@@ -171,7 +194,8 @@ The **Email Spam Detection Project** demonstrates how machine learning and natur
 ✅ AI-assisted smart replies  
 ✅ Spam risk scoring and analysis  
 ✅ Visible Auto Bin segregation  
-✅ Adaptive, self-improving learning system  
+✅ Self-learning capability  
+✅ Live Interactive Dashboard (Gradio)  
 ✅ Future-ready cybersecurity assistant  
 
 ---
